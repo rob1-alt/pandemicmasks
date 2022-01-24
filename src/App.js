@@ -1,22 +1,16 @@
 import logo from './logo.svg';
+import opensea from './img/opensea.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <h1 className='openingTitle'>Hello we are PandemicMasks 🦠</h1>
+        <a href='https://opensea.io/collection/pandemicmasks'>
+          <h2 className='linkOpenSea'>find us on opensea</h2> <img className='logoOpensea' src={opensea}/>
         </a>
+        
       </header>
     </div>
   );
