@@ -28,6 +28,7 @@
 }
 
 .linkOpenSea{
+  animation: fadeIn 10s;
   color: #2081e2;
 }
 
